@@ -10,7 +10,7 @@ N/A
 
 ## Deployed Application
 
-You can view this project on render at the following link: []()
+You can view this project on render at the following link: [https://pwa-text-editor-project.onrender.com](https://pwa-text-editor-project.onrender.com)
 
 ## Usage
 
