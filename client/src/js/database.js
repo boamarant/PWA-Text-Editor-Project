@@ -12,6 +12,7 @@ const initdb = async () =>
     },
   });
 
+// Function to PUT data into the IndexedDB database
 export const putDb = async (content) => {
   console.log('PUT to the database');
   const jateDb = await openDB('jate', 1);
@@ -22,6 +23,7 @@ export const putDb = async (content) => {
   console.log('Data saved to the database', result);
 };
 
+// Function to GET all data from the IndexedDB database
 export const getDb = async () => {
   console.log('GET all from the database');
   const jateDb = await openDB('jate', 1);

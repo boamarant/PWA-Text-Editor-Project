@@ -26,6 +26,7 @@ warmStrategyCache({
 
 registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 
+// Register a route to handle cashing of specific asset types
 registerRoute(
   ({ request }) => ['style', 'script', 'worker'].includes(request.destination),
   new CacheFirst({
